@@ -1,6 +1,13 @@
 # DockerizeSpringBootApp
 Learn how to Dockerize Spring Boot applications using Multi-Stage Builds to reduce image size, optimize performance, and configure MySQL networking.
 
+<p align="center">
+  <picture>
+    <img src="./bild1.png" alt="Sonar logo" width="400">
+  </picture>
+</p>
+
+
 # Spring Boot REST API (CRUD Operation)
 
 A RESTful API built with Spring Boot for managing products. This API provides endpoints for creating, reading, updating, and deleting product information.
