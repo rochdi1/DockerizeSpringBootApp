@@ -3,10 +3,33 @@ Learn how to Dockerize Spring Boot applications using Multi-Stage Builds to redu
 
 <p align="center">
   <picture>
-    <img src="./bild1.png" alt="Sonar logo" width="400">
+    <img src="./bild1.png" alt="bild1" width="400">
   </picture>
 </p>
 
+<p align="center">
+  <picture>
+    <img src="./bild2.png" alt="bild2" width="400">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <img src="./bild3.png" alt="bild3" width="400">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <img src="./bild4.png" alt="bild4" width="400">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <img src="./bild5.png" alt="bild5" width="400">
+  </picture>
+</p>
 
 # Spring Boot REST API (CRUD Operation)
 
@@ -510,9 +533,4 @@ The project includes a pre-configured Prometheus and Grafana setup for monitorin
 
 The dashboard will now display real-time metrics from your Spring Boot application, including request rates, error rates, and JVM statistics.
 
-
-## Contact
-
-- LinkedIn: https://www.linkedin.com/in/hossain-md-iftekhar
-- YouTube: https://www.youtube.com/@learnWithIfte
 
