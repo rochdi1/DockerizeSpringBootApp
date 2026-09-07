@@ -1,0 +1,31 @@
+docker build \
+  --build-arg BASE_JDK_IMAGE=eclipse-temurin:21-jdk \
+  --build-arg BASE_JRE_IMAGE=eclipse-temurin:21-jre \
+  -t product-service:latest .
+  
+
+docker rm product-service
+  
+docker run --name product-service \
+-e DB_HOST=172.17.0.1 \
+-e DB_USER=ifte \
+-e DB_PASSWORD=1234 \
+-p 8080:8080 \
+product-service:latest
+  
+!!!ich brauch nur die compose benuzen  
+
+docker system df
+docker ps
+docker images
+docker volume ls
+docker container prune
+docker image prune
+docker network prune
+docker builder prune
+Alle Container stoppen: docker stop $(docker ps -a -q)
+
+Alle Container entfernen: docker rm $(docker ps -a -q)
+
+Alle Images entfernen: docker rmi -f $(docker images -q)
+docker compose up -d
